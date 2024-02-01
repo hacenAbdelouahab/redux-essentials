@@ -31,7 +31,6 @@ function App() {
       {globalState.auth.isAuthenticated && (
         <>
           <div className="counter">
-            {/* Counter: {handleCounterNumber(globalState.value)} */}
             Counter: {globalState.counter.value}
           </div>
           <div>
